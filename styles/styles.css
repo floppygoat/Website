@@ -1,0 +1,71 @@
+body{
+    margin: 20px;
+    font-family: arial;
+    background-color: rgb(185,179,175);
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(185,179,175);
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#Project_Hill_Title{
+    float: left
+}
+
+nav{
+    float: left;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 1em;
+}
+
+nav a{
+    color: #444;
+    font-size: 16px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#main {
+    background-color: snow;
+    padding: 0.5em 0.7em 0.5em;
+}
+
+hr{
+    display: block;
+    border-top: 0.3em solid #818BC5;
+    border-bottom: 0.3em solid #BE81C5;
+}
